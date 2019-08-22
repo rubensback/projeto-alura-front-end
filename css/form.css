@@ -1,0 +1,39 @@
+form span{
+    font-weight: bold;
+}
+
+.formulario h1{
+    text-align: center;
+    font-size: 2em;
+    color: chocolate;
+    margin-top:  1em;
+    margin-bottom: .5em;
+}
+
+#nome,#email{
+    width: 100%;
+    margin-bottom: 1em;
+    box-shadow: 0 0 .2em rgb(1, 153, 102);
+}
+
+form{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.botao-form{
+    border-radius: 4px;
+    padding: 1em;
+    background-color: rgb(2, 148, 148);
+    display: block;
+    width: auto;
+    font-size: 1em;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 1px 1px #000;
+    text-align: center;
+    margin: .8em auto;
+    text-decoration: none;
+    font-weight: bold;
+
+}

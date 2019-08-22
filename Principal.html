@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <meta charset="UTF-8">
+        <title>AluraConf</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/principal.css">
+        <link rel="stylesheet" href="css/palestrantes.css">
+        <link rel="stylesheet" href="css/form.css">
+    </head>
+    <body> 
+        <header>
+            <nav class="navegaçao-site">
+                <ul class="cabeçalho">
+                    <li class="item-cabeçalho"><a href="#conteudo" id="botao-sobre" >sobre</a></li>
+                    <li class="item-cabeçalho"><a href="#seção-palestrantes" id="botao-palestrante">palestrantes</a></li>
+                </ul>
+            </nav>
+            <section class="texto-cabeçalho">
+                <h1 class="titulo">AluraConf</h1>
+                <h2 class="subtitulo">30maio|rio</h2>
+            </section>
+            <section>
+                <a href="#" class="botao-cabeçalho">Inscreva-se</a>
+            </section>
+        </header> 
+        <main>
+            <section class="container conteudo">
+                <h1>Muito conteúdo: do frontend ao backend</h1>
+                <h2>30 de Maio de 2017 - na cidade maravilhosa</h2>
+                <p>Com a AluraConf abordaremos o que há de novidade e conhecimentos essenciais a um desenvolvedor mobile</p>
+                <p>É uma grande chance de ficar por dentro dos assuntos de Android, IOS, Web mobile, desenvolvimento híbrido, UX,
+                        além da parte backen com Rest, Microservices, e Big Data. O desenvolvedor atualizado vai estar aqui</p>
+            </section>
+
+            <section class="seção-palestrantes">
+                <div class="titulos-palestrante">
+                    <h1>Palestrantes</h1>
+                    <h2>Aprenda com palestrantes que são referências no mercado</h2>
+                </div>
+                <div class="conjunto-palestrantes">
+                    <div class="palestrante">
+                        <img class="imagem-palestrante" src="img/palestrantes/placeholder.jpeg" alt="Foto palestrante">
+                        <h1>Flavio Almeida</h1>
+                        <h2>Desenvolvedor e instrutor da Caelum</h2>
+                        <p>To be or not to be MEAN</p>
+                    </div>
+                    <div class="palestrante">
+                        <img class="imagem-palestrante" src="img/palestrantes/placeholder.jpeg" alt="Foto palestrante">
+                        <h1>Flavio Almeida</h1>
+                        <h2>Desenvolvedor e instrutor da Caelum</h2>
+                        <p>To be or not to be MEAN</p>
+                    </div>
+                    <div class="palestrante">
+                        <img class="imagem-palestrante" src="img/palestrantes/placeholder.jpeg" alt="Foto palestrante">
+                        <h1>Flavio Almeida</h1>
+                        <h2>Desenvolvedor e instrutor da Caelum</h2>
+                        <p>To be or not to be MEAN</p>
+                    </div>
+                    <div class="palestrante">
+                        <img class="imagem-palestrante" src="img/palestrantes/placeholder.jpeg" alt="Foto palestrante">
+                        <h1>Flavio Almeida</h1>
+                        <h2>Desenvolvedor e instrutor da Caelum</h2>
+                        <p>To be or not to be MEAN</p>
+                    </div>              
+                </div>
+            </section>
+        </main>
+        <section class="formulario">
+            <h1>Seus dados</h1>
+            <form>
+                <label for="nome"><span>Nome</span></label>
+                <input id="nome" name="nome">
+
+                <label for="email"><span>E-mail</span></label>
+                <input id="email" name="email">
+
+                <button class="botao-form" type="submit">Realizar Inscrição</button>
+            </form>
+        </section>
+    </body>
+    <script src="js/jquery.js"></script>
+    <script src="js/principal.js"></script>
+</html>

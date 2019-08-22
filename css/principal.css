@@ -1,0 +1,86 @@
+header{
+    background: url('../img/destaque.jpeg') no-repeat;
+    background-size: cover;
+    padding: 2em;
+} 
+
+.item-cabeçalho{
+    padding: 1.5em;
+    width: 15ch;
+    margin: .3em;
+    font-size: .7em;
+    display: inline-block;
+
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgba(128, 125, 125, 0.3);
+    border-radius: 4px;
+    transition: background-color 0.5s;
+}
+
+.item-cabeçalho a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.item-cabeçalho:hover{
+    background-color: rgba(1, 153, 102, 0.3);
+}
+
+.navegaçao-site{
+    text-align: center;
+}
+
+.texto-cabeçalho{
+    font-size: 6em;
+    text-align: center;
+    text-shadow: 1px 1px #000; 
+    margin: .3em;   
+}
+
+.titulo{
+    color: white;
+}
+
+.subtitulo{
+    color: rgb(47, 255, 64);
+}
+
+.botao-cabeçalho{
+    border-radius: 4px;
+    padding: 1em;
+    background-color: rgb(2, 148, 148);
+    display: block;
+    width: 7em;
+    font-size: 1.3em;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 1px 1px #000;
+    text-align: center;
+    margin: .8em auto;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.conteudo{
+    text-align: center;
+}
+
+.conteudo h1{
+    font-size: 3em;
+    margin: .3em;
+}
+
+.conteudo h2{
+    font-size: 2em;
+    margin: .5em;
+}
+
+.conteudo p{
+    line-height: 2em;
+}
+
+.imagem-palestrante{
+    border-radius: 50%;
+}

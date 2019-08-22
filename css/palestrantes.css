@@ -1,0 +1,43 @@
+.seção-palestrantes{
+    background-color: chocolate;
+    text-align: center;
+}
+
+.titulos-palestrante{
+    color: white;
+    line-height: 4em;
+}
+
+.conjunto-palestrantes{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.titulos-palestrante h1{
+    font-size: 3em;
+}
+
+.titulos-palestrante h2{
+    font-size: 1.8em;
+}
+
+.palestrante{
+    background-color: white;
+    border-radius: 8px;
+    display: inline-block;
+    margin: .5em;
+    box-sizing: border-box;
+    padding: 1em;
+    width: 20%;
+    line-height: 1.8em;
+}
+
+.palestrante h2{
+    font-weight: bold;
+    line-height: 1em;
+}
+
+.imagem-palestrante{
+    max-width: 80%;
+}
+
